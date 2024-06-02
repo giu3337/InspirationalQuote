@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Inter", sans-serif; 
+}
+
+
+.quoteContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 40em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+}
+
+#author {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-left: 20em;
+}
+
+#quote {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.6rem;
+}
+
+#quote:hover {
+    color: blue;
+}
